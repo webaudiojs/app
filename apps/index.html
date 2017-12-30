@@ -17,27 +17,19 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Sidenav/menu -->
 <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidenav"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="images/drhong.png" style="width:90%;" class="w3-round"><br><br>
-    <h4 class="w3-padding-0"><b>Dr.Hong' Web-based works</b></h4>
-    
-  </div>
-  <a href="#TOP" class="w3-padding w3-text-teal">who is Dr.Hong?</a>
-   <a href="#else" class="w3-padding">web audio effect for Dr.Saxophone</a>
-  <a href="#Synthesises" class="w3-padding">Web Synthesizer</a>
-  <a href="#Instruments" class="w3-padding">Web Instruments</a>
-  <a href="#Network" class="w3-padding">Web Network system</a>
-  <a href="#library" class="w3-padding">web-Audio library</a>
+    <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <h2 class="w3-padding-0"><b>DrSax.js works</b></h2>
+    </div>
+    <a href="#Syntehsis" class="w3-padding">Sound Syntehsis</a>
+    <a href="#effects" class="w3-padding">Sound Effects</a>
+    <a href="#else" class="w3-padding">web audio effect for Dr.Saxophone</a>
+    <a href="#Synthesises" class="w3-padding">Web Synthesizer</a>
 
-
-
-   
-  <div class="w3-section w3-padding-top w3-large">
-   
-  </div>
+    <a href="#Network" class="w3-padding">Web Network system</a>
+    <a href="#library" class="w3-padding">web-Audio library</a>
 </nav>
 
 
@@ -45,55 +37,165 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 
-
-
-
-
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main" style="margin-left:320px" id ="Syntehsis">
+    <br  />
 
-  <!-- Header -->
-  <header class="w3-container">
-    <a href="#"><img src="images/drhong.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-      <h1><b>Who is Dr.Hong?</b></h1>
+    <!--### Sound Syntehsis ######################################################-->
+
+    <h2 ><b>Sound Syntehsis</b></h2>
+    <div class="w3-first w3-container ">
+
+        <p><b>Basic Oscillator and Gain </b></p>
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Oscillator</b></a>
+                   <span class = "w3-padding-left">The waveform OscillatorNode </span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Gain</b></a>
+                   <span class = "w3-padding-left">The volume GainNode  </span>
+               </li>
+           </ul>
+        </div>
+
+        <p><b> Syntehsizers</b></p>
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> FM</b></a>
+                   <span class = "w3-padding-left">Frequency modulation Synthesizer </span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> AM</b></a>
+                   <span class = "w3-padding-left">Amplitude modulation Synthesizer</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Subtractive</b></a>
+                   <span class = "w3-padding-left">Subtractive Synthesizer</span>
+               </li>
+           </ul>
+        </div>
+    </div>
+
+    <!--########## Sound effects #################################################-->
+
+    <h2 id ="effects" ><b>Sound Effects</b></h2>
+    <div class="w3-first w3-container ">
+
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Equlizer</b></a>
+                   <span class = "w3-padding-left">5 band Equlizer</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Compressor</b></a>
+                   <span class = "w3-padding-left">Dynamic Compressor </span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Delay</b></a>
+                   <span class = "w3-padding-left">Stero Delay</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Reverb</b></a>
+                   <span class = "w3-padding-left">Stero Reverb</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> panning</b></a>
+                   <span class = "w3-padding-left">Stero panning</span>
+               </li>
+           </ul>
+        </div>
+    </div>
+    <!--########## Audio File #################################################-->
+
+    <h2 id ="effects" ><b>Sound Inputs</b></h2>
+    <div class="w3-first w3-container ">
+
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Audio player with Audio tag</b></a>
+                   <span class = "w3-padding-left">using Audio Tag</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Audio player with Input tag</b></a>
+                   <span class = "w3-padding-left">Using Input tag </span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Audio player with Audio buffer</b></a>
+                   <span class = "w3-padding-left">Playing Audio buffer </span>
+               </li>
+
+           </ul>
+        </div>
+    </div>
 
 
-    <p style="color:gray;font-family:courier;position:relative;left:20px;top:0px;"> 
+    <!--########## Sound input #################################################-->
 
-Enthusiastically, He is trying to study in the art of computer music<br>
- that researching programming and interactive web application for music, <br>
- interaction design, novel mobile web music, integrated musical interface design <br>
- for real instrument, sound visualization(real instrument), <br>
- physical computing with arduino, <br>
-interactive networking system on the web <br>
-and playing the saxophone.
+    <h2 id ="effects" ><b>Sound Inputs</b></h2>
+    <div class="w3-first w3-container ">
 
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Mic Input</b></a>
+                   <span class = "w3-padding-left">Mic Input</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Tunner</b></a>
+                   <span class = "w3-padding-left">Pitch Tunner </span>
+               </li>
 
-    <p style="color:gray;font-family:courier;position:relative;left:0px;top:0px;"> 
+           </ul>
+        </div>
+    </div>
 
-  </header>
+    <!--########## Sound  visualization #################################################-->
 
+    <h2 id ="effects" ><b>Sound visualization</b></h2>
+    <div class="w3-first w3-container ">
 
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>frequency domain</b></a>
+                   <span class = "w3-padding-left">Sound frequency Form</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> amplitude domain</b></a>
+                   <span class = "w3-padding-left">Sound Wave Form</span>
+               </li>
 
+           </ul>
+        </div>
+    </div>
 
-  <header class="w3-container">
-  
-   <a name="else"><h1><b>Web-Audio effect for Dr.Saxophone</b></h1></a>
-  
-  </header>
-  
-  <!-- First Photo Grid-->
+    <!--########## Sound  Data Control #################################################-->
 
-  <div class="w3-first w3-container ">
-        <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" target="_blank"> <img src="images/dreffect.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <p><b>Web-Audio effect for Dr.Saxophone</b></p>
-        <p>Saxophone input, EQ, Compressor, Music player, Tunner, Delay, Reverb, FM, AM, Subtractive, Sound effecter, Visualization. Recorder. 
+    <h2 id ="effects" ><b>Sound Data Control</b></h2>
+    <div class="w3-first w3-container ">
 
-          <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" target="_blank">Click to Drsaxjs</a>
-    </p>
-      </div>
+        <div class="w3-container w3-white">
+           <ul>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Value Change</b></a>
+                   <span class = "w3-padding-left">Sound frequency Form</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b>Data Function control  </b></a>
+                   <span class = "w3-padding-left">Sound Wave Form</span>
+               </li>
+               <li>
+                   <a href="https://drsax.github.io/DSX/drsaxjs.1.7.0.0.html" style="text-decoration:none"  target="_blank"><b> Data Toggle control</b></a>
+                   <span class = "w3-padding-left">Sound Wave Form</span>
+               </li>
+
+           </ul>
+        </div>
     </div>
 
 
@@ -104,19 +206,10 @@ and playing the saxophone.
 
 
 
-
-
- <!-- Web Synthesises -->
- <!-- Web Synthesises -->
-  <!-- Web Synthesises -->
-   <!-- Web Synthesises -->
-    <!-- Web Synthesises -->
-     <!-- Web Synthesises -->
-      <!-- Web Synthesises -->
   <header>
      <a name="Synthesises"><h1><b>Web Synthesises</b></h1></a>
   </header>
-  
+
   <!-- First Photo Grid-->
 
 
@@ -143,62 +236,17 @@ and playing the saxophone.
       </div>
     </div>
   </div>
-  
 
- 
-
-
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-<!-- Web Instrument -->
-
- <!-- Header --><br><br><br><br><br><br><br><br>
-  <header class="w3-container">
-
-   <a name="Instruments"><h1><b>Web Instruments</b></h1></a>
-  
-  </header>
-  
-  <!-- First Photo Grid-->
-
-  
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://youtu.be/jYfYbFA_kUo" target="_blank"><img src="images/blueman.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <p><b>Bluephone</b></p>
-        <p>Web-based mobile wind instrument. FM Synthesis, reverb, filter</p>
-      </div>
-    </div>
-
-  
-   
-  </div>
-
-
-
-
-
-
-<!-- Web Network system -->
-<!-- Web Network system -->
-<!-- Web Network system -->
-<!-- Web Network system -->
- <!-- Header --><br><br><br><br><br><br><br><br>
   <header class="w3-container">
     <a href="#"><img src="images/drhong.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
    <a name="Network"><h1><b>Web Network system</b></h1></a>
-  
+
   </header>
-  
+
   <!-- First Photo Grid-->
 
-  
+
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
   <iframe width="250" height="150" src="https://www.youtube.com/embed/uZLOY8onwz4" frameborder="0" allowfullscreen></iframe>
@@ -237,12 +285,12 @@ each controller has various features. But generally, all interfaces have similar
     <a href="#"><img src="images/drhong.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
    <a name="library"><h1><b>Web-Audio library</b></h1></a>
-  
+
   </header>
-  
+
   <!-- First Photo Grid-->
 
-  
+
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <a href="https://drsax.github.io/DrSAX/lib.1.8.html" target="_blank">
@@ -250,8 +298,8 @@ each controller has various features. But generally, all interfaces have similar
       <div class="w3-container w3-white">
         <p><b>Dr.Sax.js</b></p>
         <p>Dr.Sax.js is Web Audio library for Saxophone in JavaScript.
-            It will help you to create Web Audio applications for music instruments. 
-            you can also use in another instruments and voice.   
+            It will help you to create Web Audio applications for music instruments.
+            you can also use in another instruments and voice.
 
           </p>
       </div>
@@ -267,24 +315,13 @@ each controller has various features. But generally, all interfaces have similar
 <br>
 <br>
 
-
-
-
-
-
-
-
-
-
-
-
 <script>
 // Script to open and close sidenav
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }
- 
+
 function w3_close() {
     document.getElementById("mySidenav").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
@@ -293,4 +330,3 @@ function w3_close() {
 
 </body>
 </html>
-
