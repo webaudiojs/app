@@ -5,20 +5,20 @@
 ### DrSax.js
 
 Web Audio library for Saxophone in JavaScript
-[DrSax.js Tutorial Site](http://drsaxjs.cf/).
+[DrSax.js Tutorial Site](https://drsax.github.io/DrSAX/lib.1.8.html).
 Web Audio Demo Application
 [DrSax.js App Site](https://webaudiojs.github.io/app/apps/).
 
 ### DrEditor
 
 Design and create for Web Audio API with DrSax.js 
-[Dr.Editor](http://dreditor.cf/).
+[Dr.Editor](http://antaresax.cafe24.com/editor/boots.html).
 
 ### Composition 2017
 
 Interactive web audio Networking Installation for Media Arts 
-[Main Canvas](http://ismarte.cf). 
-[Controller](http://marte.cf).
+[Main Canvas](https://isart.herokuapp.com/main.html). 
+[Controller](https://drpaint.herokuapp.com/canvas.html).
 
 ### Dr.WebSax
 
