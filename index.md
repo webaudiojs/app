@@ -6,6 +6,8 @@
 
 Web Audio library for Saxophone in JavaScript
 [DrSax.js Tutorial Site](http://drsaxjs.cf/).
+Web Audio Demo Application
+[DrSax.js App Site](https://webaudiojs.github.io/app/apps/).
 
 ### DrEditor
 
@@ -21,7 +23,7 @@ Interactive web audio Networking Installation for Media Arts
 ### Dr.WebSax
 
 Interactive web audio Networking system for Multi Media Performence 
-Web Application for Sound processing [Dr.Websax](https://websax.herokuapp.com/).
-Web Application for Dr.WebSax Control [Dr.Webxophone](https://websax.herokuapp.com/dr.webxophone.html).
+Web Application for Sound processing [Dr.Websax](https://webeffect.herokuapp.com/).
+Web Application for Dr.WebSax Control [Dr.Webxophone](https://webeffect.herokuapp.com/cont.html).
 
 
