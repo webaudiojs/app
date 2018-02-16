@@ -39,7 +39,15 @@ drsaxoman
 
 https://drsaxoman.herokuapp.com/drsaxjs.1.7.0.1.html
 
-dr.websax
+
+
+dr.websax v-2018
+
+https://webeffect.herokuapp.com/
+
+https://webeffect.herokuapp.com/cont.html
+
+dr.websax v-2017
 
 https://websax.herokuapp.com/
 
