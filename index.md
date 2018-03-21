@@ -20,8 +20,12 @@ Interactive web audio Networking Installation for Media Arts
 [Main Canvas](https://isart.herokuapp.com/main.html). 
 [Controller](https://drpaint.herokuapp.com/canvas.html).
 
-### Dr.WebSax
+### Dr.WebSax new Design
 
+Interactive web audio Networking system for Multi Media Performence 
+Web Application for Sound processing [Dr.Websax](https://newsax.herokuapp.com/).
+Web Application for Dr.WebSax Control [Dr.Webxophone](https://newsax.herokuapp.com/cont.html).
+### Dr.WebSax
 Interactive web audio Networking system for Multi Media Performence 
 Web Application for Sound processing [Dr.Websax](https://webeffect.herokuapp.com/).
 Web Application for Dr.WebSax Control [Dr.Webxophone](https://webeffect.herokuapp.com/cont.html).
