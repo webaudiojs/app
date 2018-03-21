@@ -17,7 +17,7 @@ Design and create for Web Audio API with DrSax.js
 ### Composition 2017
 
 Interactive web audio Networking Installation for Media Arts 
-[Main Canvas](https://isart.herokuapp.com/main.html). 
+[Main Canvas](https://drpaint.herokuapp.com/main.html). 
 [Controller](https://drpaint.herokuapp.com/canvas.html).
 
 ### Dr.WebSax new Design
