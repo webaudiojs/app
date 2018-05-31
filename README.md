@@ -53,3 +53,13 @@ https://websax.herokuapp.com/
 
 https://websax.herokuapp.com/dr.webxophone.html
 
+video
+
+composition 2017 https://vimeo.com/223936815
+
+delay effect_PC. https://youtu.be/dXG3VZChIp8
+
+delay_effect_mobile. https://youtu.be/GgGJUSmtbAY
+
+pitch_time effects_mobile.https://youtu.be/Nkqa44NcV8Q
+
